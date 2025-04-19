@@ -10,9 +10,9 @@ import List from "./list.jsx";
 //create component
 const app = () => {
   return (
-    <div>
+    <div className="app">
       <center>
-      <Header />
+      <Header list="10 daftar makanan"/>
       <h1>Hello React</h1>
       <p>Nama saya galih </p>
       <List/>
