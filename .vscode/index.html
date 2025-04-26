@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form dan Daftar Mahasiswa">
+    <meta name="author" content="Aldo">
+    <meta name="keywords" content="html, form, mahasiswa">
+    <title>Form & Daftar Mahasiswa</title>
+</head>
+<body>
+
+    <!-- FORM LOGIN / INPUT -->
+    <h2>Form Input Pengguna</h2>
+    <div class="container">
+        <form action="" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" name="username" id="username" placeholder="Masukkan username">
+            <br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password" placeholder="Masukkan password">
+            <br><br>
+
+            <label for="text">Nama Lengkap:</label><br>
+            <input type="text" name="text" id="text" placeholder="Masukkan nama lengkap">
+            <br><br>
+
+            <label>Hobi:</label><br>
+            <input type="checkbox" name="hobi[]" id="hobi_menulis" value="Menulis">
+            <label for="hobi_menulis">Menulis</label><br>
+
+            <input type="checkbox" name="hobi[]" id="hobi_olahraga" value="Olahraga">
+            <label for="hobi_olahraga">Olahraga</label>
+            <br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <!-- TABEL MAHASISWA -->
+    <h2>Daftar Mahasiswa</h2>
+    <table border="1" cellspacing="0" cellpadding="5" width="100%">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Jenis Kelamin</th>
+                <th>Hobi</th>
+                <th>Jurusan</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Tanggal Lahir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>123456789</td>
+                <td>Budi Santoso</td>
+                <td>Laki-laki</td>
+                <td>Membaca</td>
+                <td>Informatika</td>
+                <td>Jl. Merdeka No. 1</td>
+                <td>budi@email.com</td>
+                <td>2000-01-01</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>987654321</td>
+                <td>Siti Aminah</td>
+                <td>Perempuan</td>
+                <td>Menulis, Membaca</td>
+                <td>Sistem Informasi</td>
+                <td>Jl. Diponegoro No. 2</td>
+                <td>siti@email.com</td>
+                <td>2001-03-15</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>192837465</td>
+                <td>Andi Pratama</td>
+                <td>Laki-laki</td>
+                <td>Olahraga</td>
+                <td>Teknik Elektro</td>
+                <td>Jl. Sudirman No. 3</td>
+                <td>andi@email.com</td>
+                <td>1999-08-22</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>112233445</td>
+                <td>Rina Wulandari</td>
+                <td>Perempuan</td>
+                <td>Membaca</td>
+                <td>Informatika</td>
+                <td>Jl. Thamrin No. 4</td>
+                <td>rina@email.com</td>
+                <td>2000-07-07</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>556677889</td>
+                <td>Dedi Gunawan</td>
+                <td>Laki-laki</td>
+                <td>Menulis, Olahraga</td>
+                <td>Sistem Informasi</td>
+                <td>Jl. Gatot Subroto No. 5</td>
+                <td>dedi@email.com</td>
+                <td>2002-11-11</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
